@@ -1,3 +1,6 @@
 # game-hub
 
-chakra
+chakra-ui
+
+responsive layout using grid in chakra ui
+
