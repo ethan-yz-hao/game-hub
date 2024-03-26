@@ -10,7 +10,7 @@ interface Props {
     platforms: PlatForm[]
 }
 
-const PlatFormIconList = ({platforms}: Props) => {
+const PlatformIconList = ({platforms}: Props) => {
     const iconMap: {[key:string]: IconType} = {
         pc: FaWindows,
         playstation: FaPlaystation,
@@ -32,4 +32,4 @@ const PlatFormIconList = ({platforms}: Props) => {
     );
 };
 
-export default PlatFormIconList;
+export default PlatformIconList;
