@@ -1,7 +1,11 @@
-# game-hub
+# Game-Hub
 
-chakra-ui
+This is a [React.js](https://reactjs.org/) project bootstrapped with [vite](https://vitejs.dev/).
 
-responsive layout using grid in chakra ui
+Demo: https://game-hub-one-weld.vercel.app/
 
-axios for fetching rawg api
+Features:
+ - Using Chakra-UI components for styling
+ - Creating responsive layout using grid in Chakra-UI
+ - Fetching games from rawg api using axios
+ - Custom Icon components
