@@ -1,26 +1,32 @@
-import {FaWindows, FaPlaystation, FaXbox, FaApple, FaLinux, FaAndroid} from 'react-icons/fa'
-import {MdPhoneIphone} from "react-icons/md";
-import {SiNintendo} from "react-icons/si";
+import {FaWindows, FaPlaystation, FaXbox, FaApple, FaLinux, FaAppStoreIos, FaAndroid} from 'react-icons/fa'
+import {SiNintendo, SiAtari, SiSega, SiCommodore} from "react-icons/si";
 import {BsGlobe} from "react-icons/bs";
 import {HStack, Icon} from "@chakra-ui/react";
 import {IconType} from "react-icons";
 import {PlatForm} from "../hooks/usePlatForm";
+import {ThreeDOIcon, NeoGeoIcon} from "../data/customIcons";
+import {FunctionComponent} from "react";
 
 interface Props {
     platforms: PlatForm[]
 }
 
 const PlatformIconList = ({platforms}: Props) => {
-    const iconMap: {[key:string]: IconType} = {
-        pc: FaWindows,
-        playstation: FaPlaystation,
-        xbox: FaXbox,
-        nintendo: SiNintendo,
-        mac: FaApple,
-        linux: FaLinux,
-        ios: MdPhoneIphone,
-        android: FaAndroid,
-        web: BsGlobe
+    const iconMap: {[key:string]: IconType | FunctionComponent} = {
+        "pc": FaWindows,
+        "playstation": FaPlaystation,
+        "xbox": FaXbox,
+        "ios": FaAppStoreIos,
+        "android": FaAndroid,
+        "mac": FaApple,
+        "linux": FaLinux,
+        "nintendo": SiNintendo,
+        "atari": SiAtari,
+        "commodore-amiga": SiCommodore,
+        "sega": SiSega,
+        "3do": ThreeDOIcon,
+        "neo-geo":NeoGeoIcon,
+        "web": BsGlobe,
     }
 
     return (
