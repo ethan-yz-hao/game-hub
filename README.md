@@ -26,16 +26,22 @@ Deployed on Vercel: [Game Hub](https://game-hub-one-weld.vercel.app/)
 ## Installation
 
 1. Clone the repository and navigate to the project directory.
+   
    ```bash
    git clone https://github.com/ethan-yz-hao/game-hub.git
    cd game-hub
    ```
+   
 2. Install the dependencies
+   
    ```bash
    npm install
    ```
+   
 3. Run the development server
+
    Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
+   
    ```bash
    npm run dev
    ```
