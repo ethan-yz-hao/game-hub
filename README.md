@@ -1,4 +1,6 @@
-# Game-Hub
+# Game Hub
+
+![Game Hub Homepage](https://raw.githubusercontent.com/ethan-yz-hao/game-hub/main/images/home.png)
 
 This application is an interactive platform developed with React.js and powered by Vite, designed to allow users to browse and explore the vast database of video games from the RAWG API. It features a sleek and user-friendly layout with responsive grid system and custom icon components.
 
@@ -9,7 +11,9 @@ Deployed on Vercel: https://game-hub-one-weld.vercel.app/
 - **Game Data Integration**: Fetches detailed game information from the RAWG API using axios.
 - **Chakra-UI**: Utilizes Chakra-UI components to achieve a sleek and user-friendly interface with dark mode support.
 - **Responsive Layout**: Implements a grid system using Chakra-UI for a smooth, responsive design across all devices.
+  - <img src="https://raw.githubusercontent.com/ethan-yz-hao/game-hub/main/images/responsive.png" width="30%" alt="Responsive Layout">
 - **Custom Icon Components**: Builds custom-designed svg icon for rare items to enhance user experience.
+  - ![Custom Icon](https://raw.githubusercontent.com/ethan-yz-hao/game-hub/main/images/rare.png)
 
 ## Technologies
 
